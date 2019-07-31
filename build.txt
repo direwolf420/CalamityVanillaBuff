@@ -1,0 +1,9 @@
+displayName = Calamity Vanilla Buff
+author = direwolf420
+version = 0.1
+hideCode = true
+hideResources = true
+buildIgnore = *.csproj, *.user, *.md, obj\*, bin\*, .vs\*, .gitignore
+weakReferences = TerrariaOverhaul@3.2.2
+homepage = https://github.com/direwolf420/CalamityVanillaBuff
+modReferences = CalamityMod

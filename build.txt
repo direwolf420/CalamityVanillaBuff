@@ -1,6 +1,6 @@
 displayName = Calamity Vanilla Buff
 author = direwolf420
-version = 0.1
+version = 0.0.0.1
 hideCode = true
 hideResources = true
 buildIgnore = *.csproj, *.user, *.md, obj\*, bin\*, .vs\*, .gitignore

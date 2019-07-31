@@ -1,4 +1,5 @@
 using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace CalamityVanillaBuff
@@ -7,7 +8,7 @@ namespace CalamityVanillaBuff
 	{
         public override void ModifyWeaponDamage(Item item, ref float add, ref float mult, ref float flat)
         {
-            add += 0.2f;
+            if (item.type < ItemID.Count) add += 0.2f;
         }
     }
 }
